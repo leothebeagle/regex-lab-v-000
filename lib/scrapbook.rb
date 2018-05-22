@@ -1,0 +1,15 @@
+word_list = ["afoot", "Excellent", "incredible", "Absolute", "unreal", "Inconceivable", "octopus"]
+
+def starts_with_a_vowel?(word)
+    if word =~ /\A[aeiouAEIOU]/
+      true
+    else
+      false
+    end
+end
+
+word_list.each do |word|
+  if starts_with_a_vowel?(word)
+    puts "yes!"
+  end
+end
