@@ -13,3 +13,5 @@ word_list.each do |word|
     puts "yes!"
   end
 end
+
+valid_numbers = ["2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"]
